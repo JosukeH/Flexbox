@@ -1,22 +1,32 @@
-.container{
-    display: flex;
-    flex-direction: row;
-    height: 200px;
-    width: 100%;
-    background-color: rgb(204, 0, 255);
-    justify-content: space-around;
+body{
+    margin: 0;
 }
 
-.box{
-    width: 100px;
-    height: 100px;
+.container {
+  display: flex;
+  flex-direction: row;
+  height: 150px;
+  width: 100%;
+  background-color: rgb(204, 0, 255);
+  justify-content: space-around;
 }
-.box-1{
-    background-color: crimson;
+.container h2 {
+  background-color: #00f;
+  width: 100%;
+  margin: 0 auto;
+  text-align: center;
 }
-.box-2{
-    background-color: royalblue;
+
+.box {
+  width: 100px;
+  height: 100px;
 }
-.box-3{
-    background-color: yellowgreen;
+.box-1 {
+  background-color: crimson;
+}
+.box-2 {
+  background-color: royalblue;
+}
+.box-3 {
+  background-color: yellowgreen;
 }
